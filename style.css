@@ -1,0 +1,150 @@
+body {
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color:  hsl(204, 43%, 93%)
+}
+#container{
+  width:60vw;
+  
+  margin:70px auto;
+  display: flex;
+  flex-direction:column;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  
+}
+.header{
+  background-color: white;
+  padding:50px ;
+   color:  hsl(204, 43%, 93%);
+  
+  
+}
+.header p{
+width:80%;
+}
+.header h1{
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+.header h2{
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+
+.footer{
+  display: flex;
+  width: 100%;
+  
+  
+}
+.left{
+ background-color:   hsl(179, 62%, 43%);
+ padding: 20px;
+ width: 50%;
+ 
+}
+
+.right{
+  background-color:  hsl(179, 60%, 50%);
+  padding: 20px;
+  width: 50%;
+}
+
+.right .text, .left .text{
+  margin:7% 7%;
+  
+ 
+}
+ h3{
+  font-size: 1.4rem;
+  color:  hsl(204, 43%, 93%);
+}
+.left span{
+  font-size: 2rem;
+  margin-right:10px;
+  color:  hsl(204, 43%, 93%);
+  font-weight: 700;
+}
+.left p{
+  color:hsl(218, 10%, 80%);
+  font-size: .9rem;
+}
+.left p3{
+  color:hsl(204, 43%, 93%);
+  font-size: 1rem;
+  
+}
+
+.sign{
+  margin:50px auto;
+  width:90%;
+  padding:12px;
+  text-align: center;
+  border-radius: 5px;
+  border: 0;
+  
+background-color:  hsl(71, 73%, 54%);
+}
+.sign h1{
+  margin: auto auto;
+  color:hsl(204, 43%, 93%);
+  font-size: 1rem;
+  
+}
+.right h3{
+  margin-bottom: 30px;
+  
+}
+.left .text,.right.text{
+  margin-bottom: 0;
+}
+.left,.right{
+  padding-bottom: 0;
+}
+.right p{
+  line-height:.7;
+  color:hsl(204, 43%, 93%);
+  font-size: .9rem;
+  margin:14px 0 0 0;
+}
+@media screen and (max-width:1240px){
+
+  #container{
+    width:60vw;
+    
+    margin:20px auto;
+    display: block;
+    flex-direction:column;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    flex-direction: column;
+
+  }
+  .header{
+width:80vw;
+padding-right: 20px;
+flex-grow:100;
+  }
+.footer{
+  width: 50vw;
+  flex-direction: column;
+ 
+
+
+}
+
+.left,.right{
+  padding-right: 50px;
+  width: 80vw;
+  
+} 
+.right .text{
+  width:70%;
+  font-size:1.1rem ;
+}
+
+
+
+}
