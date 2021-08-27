@@ -7,7 +7,7 @@ body {
   width:60vw;
   
   margin:70px auto;
-  display: flex;
+  display: flex; 
   flex-direction:column;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
@@ -112,10 +112,10 @@ background-color:  hsl(71, 73%, 54%);
 @media screen and (max-width:1240px){
 
   #container{
-    width:60vw;
+    width:100vw;
     
-    margin:20px auto;
-    display: block;
+    margin:auto auto;
+    display: flex;
     flex-direction:column;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
@@ -125,7 +125,7 @@ background-color:  hsl(71, 73%, 54%);
   .header{
 width:80vw;
 padding-right: 20px;
-flex-grow:100;
+
   }
 .footer{
   width: 50vw;
